@@ -1,0 +1,49 @@
+body {
+    background-image: url("../windmill wallpaper.png");
+    background-size: cover;
+}
+
+#heading {
+    width: 275px;
+    height: 60px;
+    background-color: #280F09;
+    border: 5px solid #471B11;
+    margin: auto;
+}
+
+#title {
+    padding: 6px;
+    color: #E7DDD9;
+    font-family: Garamond, serif;
+    font-size: 42px;
+    text-align: center;
+}
+
+#blogheading {
+    width: 800px;
+    height: 40px;
+    background-color: #280F09;
+    border: 5px solid #471B11;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+#blogbackground {
+    width: 800px;
+    height: 1000px;
+    background-color: #280F09;
+    border: 5px solid #471B11;
+    margin: auto;
+}
+
+.nav {
+    width: 140px;
+    height: 50px;
+    background-color: #280F09;
+    border: 5px solid #471B11;
+    margin: -5px;
+
+    color: #E7DDD9;
+    font-family: Garamond, serif;
+    font-size: 24px;
+}
