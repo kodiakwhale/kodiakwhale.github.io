@@ -4,14 +4,14 @@ body {
 }
 
 #heading {
-    width: 275px;
+    width: 413px;
     height: 60px;
     background-color: #280F09;
     border: 5px solid #471B11;
     margin: auto;
 }
 
-#title {
+#websitetitle {
     padding: 6px;
     color: #E7DDD9;
     font-family: Garamond, serif;
@@ -20,10 +20,12 @@ body {
 }
 
 #blogheading {
-    width: 800px;
-    height: 40px;
+    width: 413px;
+    height: 50px;
     background-color: #280F09;
-    border: 5px solid #471B11;
+    border: 2.5px solid #471B11;
+    border-left-width: 5px;
+    border-right-width: 5px;
     margin: auto;
     margin-bottom: 5px;
 }
@@ -40,10 +42,68 @@ body {
     width: 140px;
     height: 50px;
     background-color: #280F09;
-    border: 5px solid #471B11;
-    margin: -5px;
+    border: 2.5px solid #471B11;
+    margin-left: -2.5px;
+    margin-right: -2.5px;
 
     color: #E7DDD9;
     font-family: Garamond, serif;
     font-size: 24px;
+}
+
+.post {
+    width: 790px;
+    height: 200px;
+    background-color: #280F09;
+    border: 5px solid #471B11;
+    color: #E7DDD9;
+    font-family: Garamond, serif;
+    font-size: 24px;
+}
+
+.title {
+    color: #E7DDD9;
+    font-family: Garamond, serif;
+    font-size: 36px;
+    display: inline;
+    padding: 10px;
+}
+
+.date {
+    color: #E7DDD9;
+    font-family: Garamond, serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px;
+    margin-top: -5px;
+}
+
+.desc {
+    color: #E7DDD9;
+    font-family: Garamond, serif;
+    font-size: 24px;
+    padding: 10px;
+    margin-top: -5px;
+    height: 35px;
+}
+
+.read {
+    width: 130px;
+    height: 40px;
+    background-color: #280F09;
+    border: 5px solid #471B11;
+    margin-left: 7.6px;
+
+    color: #E7DDD9;
+    font-family: Garamond, serif;
+    font-size: 24px;
+    position: absolute;
+}
+
+[type="button"]:hover {
+    background-color: #1f0c07;
+}
+
+[type="button"]:focus {
+    outline: 0;
 }
