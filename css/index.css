@@ -1,6 +1,7 @@
 body {
     background-image: url("../windmill wallpaper.png");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #heading {
@@ -32,10 +33,11 @@ body {
 
 #blogbackground {
     width: 800px;
-    height: 1000px;
+    height: auto;
     background-color: #280F09;
     border: 5px solid #471B11;
     margin: auto;
+    display: block;
 }
 
 .nav {
