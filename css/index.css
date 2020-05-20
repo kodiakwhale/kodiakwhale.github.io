@@ -100,6 +100,23 @@ body {
     position: absolute;
 }
 
+.bg {
+    background-color: #280F09;
+    border: 5px solid #471B11;
+    color: #E7DDD9;
+    font-family: Garamond, serif;
+    font-size: 28px;
+    padding: 10px;
+}
+
+.link {
+    color: #E7DDD9;
+    font-family: Garamond, serif;
+    font-size: 28px;
+    margin-right: 10px;
+    text-align: center;
+}
+
 [type="button"]:hover {
     background-color: #1f0c07;
 }
