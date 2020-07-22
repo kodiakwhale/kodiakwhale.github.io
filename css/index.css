@@ -14,6 +14,14 @@ img {
 	-ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
 }
 
+.code {
+	color: #E7DDD9;
+	background-color: #1f0c07;
+	margin: 10px;
+	font-size: 18px;
+	padding: 0em 1em;
+}
+
 #heading {
     width: 413px;
     height: 60px;
