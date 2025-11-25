@@ -1,5 +1,5 @@
 body {
-    background-image: url("../windmill wallpaper.png");
+    background-image: url("../wallpaper.png");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -23,11 +23,12 @@ img {
 }
 
 #heading {
-    width: 413px;
-    height: 60px;
+    width: 300px;
+    /*height: 60px;*/
     background-color: #280F09;
     border: 5px solid #471B11;
     margin: auto;
+	font-style: italic;
 }
 
 #websitetitle {
@@ -39,14 +40,17 @@ img {
 }
 
 #blogheading {
-    width: 413px;
+    /*width: 413px;
     height: 50px;
     background-color: #280F09;
     border: 2.5px solid #471B11;
     border-left-width: 5px;
     border-right-width: 5px;
     margin: auto;
-    margin-bottom: 5px;
+    margin-bottom: 5px;*/
+	display: flex;
+	align-content: center;
+	justify-content: center;
 }
 
 #blogbackground {
@@ -56,19 +60,20 @@ img {
     border: 5px solid #471B11;
     margin: auto;
     display: block;
+	align-content: center;
 }
 
 .nav {
-    width: 140px;
-    height: 50px;
+    width: 150px;
+    height: 60px;
     background-color: #280F09;
-    border: 2.5px solid #471B11;
-    margin-left: -2.5px;
-    margin-right: -2.5px;
+    border: 5px solid #471B11;
+    margin-left: 5px;
+    margin-right: 5px;
 
     color: #E7DDD9;
     font-family: Garamond, serif;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .post {

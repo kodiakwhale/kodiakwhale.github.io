@@ -1,0 +1,34 @@
+body {
+    background-image: url("../wallpaper.png");
+    background-size: cover;
+    background-attachment: fixed;
+	color: #fff8e8;
+	font-size: 18px;
+	font-family: Garamond, serif;
+}
+
+label {
+	font-size: 72px;
+}
+
+.list {
+	width: fit-content;
+	padding: 5px;
+    background-color: #280F09;
+    border: 5px solid #471B11;
+}
+
+.item {
+	width: 200px;
+    height: 50px;
+    /*background-color: #280F09;*/
+    /*border: 5px solid #471B11;*/
+}
+
+a:link {
+	color:white;
+}
+
+a:visited {
+	color:grey;
+}
