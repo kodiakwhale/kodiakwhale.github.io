@@ -2,6 +2,9 @@ body {
     background-image: url("../wallpaper.png");
     background-size: cover;
     background-attachment: fixed;
+	font-size: 18px;
+	font-family: Garamond, serif;
+	color: #fff8e8;
 }
 
 img { 
@@ -12,6 +15,30 @@ img {
     image-rendering: pixelated; /* Chrome */
     image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
 	-ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+.h1inline {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.h2inline {
+	font-size: 24px;
+	font-weight: bold;
+	color: gray;
+}
+
+.block {
+	width: fit-content;
+	padding: 5px;
+    background-color: #280F09;
+    border: 5px solid #471B11;
+	display: flexbox;
+	margin: auto;
 }
 
 .code {
@@ -148,4 +175,12 @@ img {
 
 [type="button"]:focus {
     outline: 0;
+}
+
+a:link {
+	color:white;
+}
+
+a:visited {
+	color:grey;
 }

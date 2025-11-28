@@ -5,10 +5,14 @@ body {
 	color: #fff8e8;
 	font-size: 18px;
 	font-family: Garamond, serif;
+	align-content: center;
 }
 
-label {
+.pageheader {
 	font-size: 72px;
+	display: flexbox;
+	margin: auto;
+	text-align: center;
 }
 
 .list {
@@ -16,6 +20,8 @@ label {
 	padding: 5px;
     background-color: #280F09;
     border: 5px solid #471B11;
+	display: flexbox;
+	margin: auto;
 }
 
 .item {
