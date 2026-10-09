@@ -1,5 +1,5 @@
 body {
-    background-image: url("../wallpaper.png");
+    background-image: url("../img/sky_sunset.png");
     background-size: cover;
     background-attachment: fixed;
 	font-size: 18px;
@@ -19,6 +19,10 @@ img {
 
 h1, h2, h3 {
 	margin: 0;
+}
+
+p {
+	margin: 5px;
 }
 
 .h1inline {
@@ -49,21 +53,39 @@ h1, h2, h3 {
 	padding: 0em 1em;
 }
 
-#heading {
-    width: 300px;
-    /*height: 60px;*/
-    background-color: #280F09;
+.starboard {
+	width: 1050px;
+	margin: auto;
+	background-color: #280F09;
     border: 5px solid #471B11;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#header {
+	width: 1080px;
     margin: auto;
-	font-style: italic;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 #websitetitle {
-    padding: 6px;
+	width: fit-content;
+    height: 50px;
+	line-height: 50px;
+    background-color: #280F09;
+    border: 5px solid #471B11;
+    /*margin: auto;*/
+	font-style: italic;
+
     color: #E7DDD9;
     font-family: Garamond, serif;
-    font-size: 42px;
+    font-size: 32px;
     text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
 }
 
 #blogheading {
@@ -75,9 +97,14 @@ h1, h2, h3 {
     border-right-width: 5px;
     margin: auto;
     margin-bottom: 5px;*/
+	width: fit-content;
 	display: flex;
 	align-content: center;
 	justify-content: center;
+    /*margin: auto;*/
+	/*background-color: #280F09;*/
+    /*border: 5px solid #471B11;*/
+	gap: 5px;
 }
 
 #blogbackground {
@@ -90,17 +117,30 @@ h1, h2, h3 {
 	align-content: center;
 }
 
+.aligned {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
 .nav {
-    width: 150px;
-    height: 60px;
+    width: auto;
+    height: 50px;
+	line-height: 50px;
     background-color: #280F09;
     border: 5px solid #471B11;
-    margin-left: 5px;
-    margin-right: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+    /*margin-left: 2.5px;
+    margin-right: 2.5px;*/
 
     color: #E7DDD9;
     font-family: Garamond, serif;
     font-size: 32px;
+	cursor: pointer;
+	text-decoration: none;
+	text-align: center;
 }
 
 .post {
@@ -178,9 +218,11 @@ h1, h2, h3 {
 }
 
 a:link {
-	color:white;
+	color: #E7DDD9;
+    font-family: Garamond, serif;
+    /*font-size: 24px;*/
 }
 
-a:visited {
+/*a:visited {
 	color:grey;
-}
+}*/
